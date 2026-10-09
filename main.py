@@ -1,7 +1,7 @@
 import tkinter as tk
 
 root = tk.Tk()
-root.title("Basic GUI")
+root.title("basic Calculator")
 root.geometry("300x170")
 
 name_entry = tk.Entry(root)
