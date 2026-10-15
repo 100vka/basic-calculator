@@ -19,7 +19,7 @@ def calculate():
         error_label.config(text="")
 
     except Exception as e:
-        error_label.config(text="Invalid input")
+        error_label.config(text="something went wrong")
         output_label.config(text="")
 
 button = tk.Button(root, text="Calculate", command=calculate)
